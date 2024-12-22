@@ -8,7 +8,7 @@ body {
     justify-content: center;
     margin: 0;
     font-family: "Open Sans", sans-serif;
-    background-color: #EEE4F0;
+    background-color: #E8EFF7;
     color: #333;
     font-size: 16px;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .fa-github-alt {
-    color: #E9B14C;
+    color: #F19494;
 }
 
 img {
@@ -42,8 +42,8 @@ h1 {
     font-size: 3.5em;
     text-align: center;
     font-family: "Oswald", sans-serif;
-    background-color: #351D77;
-    color: #fff;
+    background-color: #453E4F;
+    color: #FFE8D6;
     text-transform: uppercase;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -64,7 +64,7 @@ h1 {
 .circle {
     width: 20px;
     height: 20px;
-    background-color: #351D77;
+    background-color: #453E4F;
     border-radius: 100%;
     z-index: 99;
     align-self: center;
@@ -80,7 +80,7 @@ h1 {
 h3 {
     width: 100%;
     text-align: center;
-    color: #E9B14C;
+    color: #F19494;
 }
 
 ul {
@@ -107,8 +107,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #351D77;
-    color: white;
+    background-color: #453E4F;
+    color: #FFE8D6;
     font-size: 18px;
     padding-bottom: 2em;
 }
@@ -135,7 +135,7 @@ ul {
     width: 100%;
     margin: 0;
     padding: 0;
-    border-bottom: 1px solid #9b8dc9;
+    border-bottom: 1px solid #F8C6C6;
     padding-bottom: 19px;
 }
 
@@ -144,7 +144,7 @@ ul {
     margin-top: 1em;
     padding: 1em;
     margin-bottom: 1em;
-    border: 2px solid #351D77;
+    border: 2px solid #453E4F;
 }
 
 section.repo-data {
@@ -173,18 +173,18 @@ section.repo-data {
 .repo-list li {
     width: 90%;
     margin: 1em 0;
-    border: 4px inset #E9B14C;
+    border: 5px groove #F19494;
     padding: 0.5em;
 }
 
 .repo-list h3 {
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 10px;
 }
 
 .repo-list h3:hover {
-    background-color: #eee9ff;
+    background-color: #F8C6C6;
     cursor: pointer;
 }
 
@@ -209,8 +209,8 @@ section.repo-data {
     margin-top: 2em;
     cursor: pointer;
     display: block;
-    background-color: #351D77;
-    border: 1px solid #351D77;
+    background-color: #453E4F;
+    border: 1px solid #453E4F;
 }
 
 .repo-data .visit:hover {
