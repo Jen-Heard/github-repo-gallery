@@ -8,7 +8,7 @@ body {
     justify-content: center;
     margin: 0;
     font-family: "Open Sans", sans-serif;
-    background-color: #E8EFF7;
+    background-color: #c5c6c7;
     color: #333;
     font-size: 16px;
 }
@@ -27,7 +27,7 @@ body {
 }
 
 .fa-github-alt {
-    color: #F19494;
+    color: #66fcf1;
 }
 
 img {
@@ -42,8 +42,8 @@ h1 {
     font-size: 3.5em;
     text-align: center;
     font-family: "Oswald", sans-serif;
-    background-color: #453E4F;
-    color: #FFE8D6;
+    background-color: #1f2833;
+    color: #fff;
     text-transform: uppercase;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -52,7 +52,7 @@ h1 {
 .badge {
     height: 80px;
     width: 50px;
-    background-color: grey;
+    background-color: #7d8082;
     z-index: 98;
     margin-bottom: -35px;
     margin-top: 10px;
@@ -64,7 +64,7 @@ h1 {
 .circle {
     width: 20px;
     height: 20px;
-    background-color: #453E4F;
+    background-color: #1f2833;
     border-radius: 100%;
     z-index: 99;
     align-self: center;
@@ -80,7 +80,7 @@ h1 {
 h3 {
     width: 100%;
     text-align: center;
-    color: #F19494;
+    color: #45a29e;
 }
 
 ul {
@@ -107,8 +107,8 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #453E4F;
-    color: #FFE8D6;
+    background-color: #1f2833;
+    color: #fff;
     font-size: 18px;
     padding-bottom: 2em;
 }
@@ -116,7 +116,7 @@ ul {
 .user-info figure {
     width: 90%;
     max-width: 200px;
-}
+   }
 
 .user-info img {
     border-radius: 100%;
@@ -134,17 +134,19 @@ ul {
 .user-info div p {
     width: 100%;
     margin: 0;
-    padding: 0;
-    border-bottom: 1px solid #F8C6C6;
-    padding-bottom: 19px;
-}
+    padding: 10px 0 19px 0;
+    border-bottom: 1px solid #66fcf1;
+ }
 
 .filter-repos {
     width: 300px;
     margin-top: 1em;
     padding: 1em;
     margin-bottom: 1em;
-    border: 2px solid #453E4F;
+    color: #7d8082;
+    border: 2px solid #1f2833;
+    border-radius: 15px;
+    background-color: #fff;
 }
 
 section.repo-data {
@@ -173,7 +175,8 @@ section.repo-data {
 .repo-list li {
     width: 90%;
     margin: 1em 0;
-    border: 5px groove #F19494;
+    border: 3px groove #45a29e;
+    border-radius: 15px;
     padding: 0.5em;
 }
 
@@ -184,8 +187,11 @@ section.repo-data {
 }
 
 .repo-list h3:hover {
-    background-color: #F8C6C6;
     cursor: pointer;
+    transform: scale(1.05)
+    translateY(-5px);
+    /* border: 4px groove #45a29e; */
+    /* box-shadow: 0 5px 15px #c9e8e7; */
 }
 
 .repo-list p {
@@ -204,13 +210,13 @@ section.repo-data {
 .repo-data .visit {
     text-decoration: none;
     max-width: 200px;
-    color: #fff;
+    color: #FFE8D6;
     padding: 0.75em;
     margin-top: 2em;
     cursor: pointer;
     display: block;
-    background-color: #453E4F;
-    border: 1px solid #453E4F;
+    background-color: #1f2833;
+    border: 1px solid #1f2833;
 }
 
 .repo-data .visit:hover {
